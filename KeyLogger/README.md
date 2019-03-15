@@ -12,7 +12,7 @@
 Thread.Sleep(100);
 for (int i = 0; i < 255; i++)
 {
-    int state = GetAsyncKeyState(i);
+    int state = GetAsyncKeyState(i); // by key number returns the current state
     ...
 }
 ```
